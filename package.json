@@ -1,0 +1,20 @@
+{
+  "name": "api-scaffold",
+  "version": "0.1.0",
+  "description": "A basic example API server",
+  "main": "index.js",
+  "author": "Graham Whelan <gawhelan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "node --inspect src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "jsonwebtoken": "^8.2.1",
+    "koa": "^2.5.1",
+    "koa-json-body": "^5.3.0",
+    "koa-router": "^7.4.0",
+    "nedb": "^1.8.0"
+  }
+}
